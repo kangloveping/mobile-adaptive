@@ -1,0 +1,299 @@
+html {
+  font-size: 110px;
+}
+/* ipad pro */
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 102.4px;
+  }
+}
+/* ipad */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 76.8px;
+  }
+}
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 54px;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 424px) {
+  html {
+    font-size: 42.4px;
+  }
+}
+/* iphone6 7 8 plus */
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 41.4px;
+  }
+}
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 384px) {
+  html {
+    font-size: 38.4px;
+  }
+}
+/* iphoneX */
+@media screen and (max-width: 375px) and (-webkit-device-pixel-ratio: 3) {
+  html {
+    font-size: 37.5px;
+  }
+}
+/* iphone6 7 8 */
+@media screen and (max-width: 375px) and (-webkit-device-pixel-ratio: 2) {
+  html {
+    font-size: 37.5px;
+  }
+}
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 36px;
+  }
+}
+/* iphone5 */
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 32px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 320px;
+  width: 10rem;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+header {
+  display: flex;
+  width: 10rem;
+  height: 1.17333333rem;
+  background-color: #ffdb47;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+header .classify {
+  width: 0.48rem;
+  height: 0.8rem;
+  background-color: #fff;
+  margin: 0.18666667rem;
+  background: url("https://image2.suning.cn/uimg/cms/img/157199320847433454.png") no-repeat;
+  background-size: 0.48rem 0.8rem;
+}
+header .search {
+  flex: 1;
+  margin: 0.18666667rem;
+}
+header .search input {
+  width: 100%;
+  display: block;
+  height: 0.8rem;
+  border-radius: 0.4rem;
+  border: none;
+  outline: none;
+  font-size: 0.33333333rem;
+  padding: 0 0.4rem;
+  color: #777;
+}
+header .login {
+  width: 0.48rem;
+  height: 0.8rem;
+  background-color: #fff;
+  margin: 0.18666667rem;
+  background: url("https://image3.suning.cn/uimg/cms/img/157199321817918653.png") no-repeat;
+  background-size: 0.48rem 0.8rem;
+}
+.content {
+  margin: 1.17333333rem 0 1.33333333rem 0;
+  padding: 0 0.06666667rem;
+}
+.content .banner {
+  width: 100%;
+  height: 4.66666667rem;
+  background: url("//oss.suning.com/aps/aps_learning/iwogh/2020/07/03/15/iwoghBannerPicture/8ae207c0e3494c40b9b1604eb51be9d6.png?format=_is_1242w_610h") no-repeat;
+  background-size: 100% 4.66666667rem;
+}
+.content nav {
+  width: 100%;
+  height: 4.26666667rem;
+}
+.content nav a {
+  width: 1.97333333rem;
+  height: 1.89333333rem;
+  float: left;
+}
+.content nav a .img {
+  height: 1.50666667rem;
+  padding: 0.38666667rem 0.44rem 0 0.44rem;
+}
+.content nav a .img img {
+  width: 1.12rem;
+  height: 1.12rem;
+}
+.content nav a .title {
+  height: 0.37333333rem;
+  line-height: 0.37333333rem;
+  text-align: center;
+  font-size: 0.33333333rem;
+  color: #666;
+  overflow: hidden;
+}
+.content .newImg {
+  display: flex;
+  width: 100%;
+  height: 3.12rem;
+  padding: 0 0.06666667rem;
+}
+.content .newImg a {
+  display: block;
+  float: left;
+}
+.content .newImg .newImg1 {
+  width: 4.90666667rem;
+  height: 100%;
+}
+.content .newImg .newImg2 {
+  width: 2.4rem;
+  height: 100%;
+  margin-left: 0.02666667rem;
+}
+.content .blank {
+  width: 9.33333333rem;
+  height: 8.93333333rem;
+  background-color: #fff;
+  padding: 0 0.2rem;
+  border-radius: 0.26666667rem;
+  margin: 0.4rem 0.26666667rem 0;
+}
+.content .blank .blank1 {
+  width: 100%;
+  height: 3.44rem;
+  border-bottom: 1px solid #ddd;
+  padding-top: 0.13333333rem;
+}
+.content .blank .blank1 .blank-left {
+  width: 50%;
+  height: 100%;
+  float: left;
+  border-right: 1px solid #ddd;
+}
+.content .blank .blank1 .blank-left .left-title {
+  display: block;
+  padding-left: 0.29333333rem;
+}
+.content .blank .blank1 .blank-left .left-title div {
+  color: #000;
+  font-size: 0.4rem;
+  font-weight: 700;
+}
+.content .blank .blank1 .blank-left .left-title p {
+  color: #777;
+  font-size: 0.33333333rem;
+}
+.content .blank .blank1 .blank-left .blank-img1 {
+  display: block;
+  float: left;
+}
+.content .blank .blank1 .blank-left .blank-img1 img {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: 0 0.29333333rem;
+}
+.content .blank .blank1 .blank-left .blank-img1 p {
+  font-size: 0.33333333rem;
+  color: #777;
+  text-align: center;
+}
+.content .blank .blank1 .blank-right {
+  border-right: none;
+}
+.content .blank .blank2 .b2-left {
+  width: 2.26666667rem;
+  height: 100%;
+  padding: 0.4rem 0 0 0.2rem;
+  float: left;
+}
+.content .blank .blank2 .b2-left .bl-title1 {
+  color: #000;
+  font-size: 0.46666667rem;
+  font-weight: 700;
+}
+.content .blank .blank2 .b2-left .bl-title2 {
+  color: #777;
+  font-size: 0.33333333rem;
+}
+.content .blank .blank2 .b2-right {
+  padding: 0.13333333rem 0;
+}
+.content .blank .blank2 .b2-right div {
+  width: 1.66666667rem;
+  height: 100%;
+  float: left;
+}
+.content .blank .blank2 .b2-right div p {
+  color: #666;
+  font-size: 0.26666667rem;
+  text-align: center;
+}
+.content .blank .blank2 .b2-right div img {
+  width: 1.33333333rem;
+  height: 1.33333333rem;
+  margin: 0 auto;
+}
+.content .banner2 img {
+  width: 100%;
+  height: 2.8rem;
+}
+footer {
+  width: 10rem;
+  height: 1.33333333rem;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  border-top: 1px solid #EEE;
+  background: #FFF;
+}
+footer p {
+  font-size: 0.33333333rem;
+  text-align: center;
+  color: #777;
+}
+footer a {
+  width: 2rem;
+  height: 1.33333333rem;
+  float: left;
+}
+footer a img {
+  width: 0.64rem;
+  height: 0.64rem;
+  margin: 0.13333333rem auto 0;
+}
+footer a .like {
+  color: #000;
+  font-weight: 700;
+}

@@ -1,0 +1,281 @@
+@import "base";
+@baseFont: 75rem;
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width       : 320px;
+    width           : 10rem;
+    margin          : 0 auto;
+    font-family     : Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    display        : block;
+}
+
+header {
+    display         : flex;
+    width           : 750 / @baseFont;
+    height          : 88 / @baseFont;
+    background-color: rgb(255, 219, 71);
+    position        : fixed;
+    left            : 50%;
+    top             : 0;
+    transform       : translateX(-50%);
+
+    .classify {
+        width           : 36 / @baseFont;
+        height          : 60 / @baseFont;
+        background-color: #fff;
+        margin          : 14 / @baseFont;
+        background      : url("https://image2.suning.cn/uimg/cms/img/157199320847433454.png") no-repeat;
+        background-size : 36 / @baseFont 60 / @baseFont;
+    }
+
+    .search {
+        flex  : 1;
+        margin: 14 / @baseFont;
+
+        input {
+            width        : 100%;
+            display      : block;
+            height       : 60 / @baseFont;
+            border-radius: 30 / @baseFont;
+            border       : none;
+            outline      : none;
+            font-size    : 25 / @baseFont;
+            padding      : 0 30 / @baseFont;
+            color        : #777;
+        }
+    }
+
+    .login {
+        width           : 36 / @baseFont;
+        height          : 60 / @baseFont;
+        background-color: #fff;
+        margin          : 14 / @baseFont;
+        background      : url("https://image3.suning.cn/uimg/cms/img/157199321817918653.png") no-repeat;
+        background-size : 36 / @baseFont 60 / @baseFont;
+    }
+}
+
+.content {
+    margin: 88 / @baseFont 0 100 / @baseFont 0;
+    padding   : 0 5 / @baseFont;
+    
+    .banner {
+        width          : 100%;
+        height         : 350 / @baseFont;
+        background     : url("//oss.suning.com/aps/aps_learning/iwogh/2020/07/03/15/iwoghBannerPicture/8ae207c0e3494c40b9b1604eb51be9d6.png?format=_is_1242w_610h") no-repeat;
+        background-size: 100% 350 / @baseFont;
+    }
+
+    nav {
+        width : 100%;
+        height: 320 / @baseFont;
+
+        a {
+            width : 148 / @baseFont;
+            height: 142 / @baseFont;
+            float : left;
+
+            .img {
+                height : 113 / @baseFont;
+                padding: 29 / @baseFont 33 / @baseFont 0 33 / @baseFont;
+
+                img {
+                    width : 84 / @baseFont;
+                    height: 84 / @baseFont;
+                }
+            }
+
+            .title {
+                height     : 28 / @baseFont;
+                line-height: 28 / @baseFont;
+                text-align : center;
+                font-size  : 25 / @baseFont;
+                color      : #666;
+                overflow   : hidden;
+            }
+
+        }
+    }
+
+    .newImg {
+        display: flex;
+        width  : 100%;
+        height : 234 / @baseFont;
+        padding: 0 5 / @baseFont;
+
+        a {
+            display: block;
+            float  : left;
+        }
+
+        .newImg1 {
+            width : 368 / @baseFont;
+            height: 100%;
+        }
+
+        .newImg2 {
+            width      : 180 / @baseFont;
+            height     : 100%;
+            margin-left: 2 / @baseFont;
+        }
+    }
+
+    .blank {
+        width           : 700 / @baseFont;
+        height          : 670 / @baseFont;
+        background-color: #fff;
+        padding         : 0 15 / @baseFont;
+        border-radius   : 20 / @baseFont;
+        margin          : 30 / @baseFont 20 / @baseFont 0;
+
+        .blank1 {
+            width        : 100%;
+            height       : 258 / @baseFont;
+            border-bottom: 1px solid #ddd;
+            padding-top  : 10 / @baseFont;
+
+            .blank-left {
+                width       : 50%;
+                height      : 100%;
+                float       : left;
+                border-right: 1px solid #ddd;
+
+                .left-title {
+                    display     : block;
+                    padding-left: 22 / @baseFont;
+
+                    div {
+                        color      : #000;
+                        font-size  : 30 / @baseFont;
+                        font-weight: 700;
+                    }
+
+                    p {
+                        color    : #777;
+                        font-size: 25 / @baseFont;
+                    }
+                }
+
+                .blank-img1 {
+                    display: block;
+                    float  : left;
+
+                    img {
+                        width : 120 / @baseFont;
+                        height: 120 / @baseFont;
+                        margin: 0 22 / @baseFont;
+                    }
+
+                    p {
+                        font-size : 25 / @baseFont;
+                        color     : #777;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .blank-right {
+                border-right: none;
+            }
+        }
+
+        .blank2 {
+            .b2-left {
+                width  : 170 / @baseFont;
+                height : 100%;
+                padding: 30 / @baseFont 0 0 15 / @baseFont;
+                float  : left;
+
+                .bl-title1 {
+                    color      : #000;
+                    font-size  : 35 / @baseFont;
+                    font-weight: 700;
+                }
+
+                .bl-title2 {
+                    color    : #777;
+                    font-size: 25 / @baseFont;
+                }
+            }
+
+            .b2-right {
+                padding: 10 / @baseFont 0;
+
+                div {
+                    width : 125 / @baseFont;
+                    height: 100%;
+                    float : left;
+
+                    // text-align: center;
+                    p {
+                        color     : #666;
+                        font-size : 20 / @baseFont;
+                        text-align: center;
+                    }
+
+                    img {
+                        width : 100 / @baseFont;
+                        height: 100 / @baseFont;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .banner2 {
+        img {
+            width : 100%;
+            height: 210 / @baseFont;
+        }
+    }
+}
+
+footer {
+    width     : 750 / @baseFont;
+    height    : 100 / @baseFont;
+    position  : fixed;
+    left      : 50%;
+    bottom    : 0;
+    transform : translateX(-50%);
+    border-top: 1px solid #EEE;
+    background: #FFF;
+
+    p {
+        font-size : 25 / @baseFont;
+        text-align: center;
+        color     : #777;
+    }
+
+    a {
+        width : 150 / @baseFont;
+        height: 100 / @baseFont;
+        float : left;
+
+        img {
+            width : 48 / @baseFont;
+            height: 48 / @baseFont;
+            margin: 10 / @baseFont auto 0;
+        }
+
+        .like {
+            color      : #000;
+            font-weight: 700;
+        }
+    }
+}
